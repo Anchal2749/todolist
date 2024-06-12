@@ -18,7 +18,7 @@ myForm.onsubmit = (e:SubmitEvent) =>{
   const todo:Todo = {
     title:todoInput.value,
     isCompleted:false,
-    id: String(Math.random()*1000),
+    id: String(Math.random()*10000),
   };
 
   todos.push(todo);
